@@ -31,7 +31,7 @@ const items = [
   },
 ];
 
-const MainSection = () => {
+const PersonalSection = () => {
   return (
     <SidebarGroup>
       <SidebarGroupContent>
@@ -57,4 +57,4 @@ const MainSection = () => {
   );
 };
 
-export default MainSection;
+export default PersonalSection;
