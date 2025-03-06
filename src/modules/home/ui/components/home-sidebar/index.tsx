@@ -5,7 +5,7 @@ import PersonalSection from "./personal-section";
 
 const HomeSidebar = () => {
   return (
-    <Sidebar className="mt-16">
+    <Sidebar className="pt-16 z-40 border-none" collapsible="icon">
       <SidebarContent className="bg-background">
         <MainSection />
         <Separator />
